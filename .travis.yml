@@ -3,4 +3,4 @@ php:
   - 5.4
 before_script:
   - npm install -g gulp gulp-concat gulp-uglify
-script: gulp
+script: gulp js
