@@ -2,5 +2,6 @@ language: php
 php:
   - 5.4
 before_script:
-  - npm install -g gulp gulp-concat gulp-uglify
-script: gulp js
+  - npm install gulp gulp-concat gulp-uglify
+script:
+  - gulp js
